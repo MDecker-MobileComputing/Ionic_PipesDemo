@@ -27,6 +27,7 @@ export class AppComponent {
   initializeApp() {
 
     this.platform.ready().then(() => {
+
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
@@ -46,6 +47,10 @@ export class AppComponent {
       {
         titel: "Datumsformatierung (Standard)",
         ziel: "/seite2"
+      },
+      {
+        titel: "Eigene Pipe 1",
+        ziel: "/seite3"
       }
     ];
   }  
