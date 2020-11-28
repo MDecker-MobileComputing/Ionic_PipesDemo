@@ -51,7 +51,12 @@ export class AppComponent {
       {
         titel: "Eigene Pipe 1",
         ziel: "/seite3"
+      },
+      {
+        titel: "Eigene Pipe 2",
+        ziel: "/seite4"
       }
+
     ];
   }  
 }

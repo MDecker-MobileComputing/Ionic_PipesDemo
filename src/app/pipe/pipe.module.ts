@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StringMitLaengePipe } from './string-mit-laenge.pipe';
+import { ProzentwertPipe} from './prozenztwert.pipe';
 
 
 /**
@@ -12,10 +13,10 @@ import { StringMitLaengePipe } from './string-mit-laenge.pipe';
     CommonModule
   ],
   exports: [
-    StringMitLaengePipe
+    StringMitLaengePipe, ProzentwertPipe
   ],
   declarations: [
-    StringMitLaengePipe
+    StringMitLaengePipe, ProzentwertPipe
   ]
 })
 export class PipeModule { }
