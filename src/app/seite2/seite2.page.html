@@ -1,0 +1,102 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Standard-Pipes: Formatierung Datum
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum ohne Pipe</h1>
+        <h2>{{ aktuellesDatum }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date</i></h1>
+        <h2>{{ aktuellesDatum | date }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'short'</i></h1>
+        <h2>{{ aktuellesDatum | date:'short' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'medium'</i></h1>
+        <h2>{{ aktuellesDatum | date:'medium' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'long'</i></h1>
+        <h2>{{ aktuellesDatum | date:'long' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'full'</i></h1>
+        <h2>{{ aktuellesDatum | date:'full' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'shortTime'</i></h1>
+        <h2>{{ aktuellesDatum | date:'shortTime' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'mediumTime'</i></h1>
+        <h2>{{ aktuellesDatum | date:'mediumTime' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'fullTime'</i></h1>
+        <h2>{{ aktuellesDatum | date:'fullTime' }}</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'yyyy-MM-dd_hh:mm:ss'</i></h1>
+        <h2>{{ aktuellesDatum | date:'yyyy-MM-dd_hh:mm:ss' }}</h2>
+      </ion-label>
+    </ion-item>    
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'ww'</i> (Kalenderwoche)</h1>
+        <h2>{{ aktuellesDatum | date:'ww' }}</h2>
+      </ion-label>
+    </ion-item>        
+
+    <ion-item>
+      <ion-label>
+        <h1>Datum durch Pipe <i>date:'EEEE'</i></h1>
+        <h2>{{ aktuellesDatum | date:'EEEE' }}</h2>
+      </ion-label>
+    </ion-item>        
+
+  </ion-list>
+
+</ion-content>
