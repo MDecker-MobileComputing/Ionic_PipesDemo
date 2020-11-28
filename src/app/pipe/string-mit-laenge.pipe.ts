@@ -12,6 +12,10 @@ export class StringMitLaengePipe implements PipeTransform {
   /**
    * Methode, die die eigentliche Logik der Pipe enthält.
    * 
+   * Beispiel: 
+   * * Input: `abcd`
+   * * Output: `abcd (4)`
+   * 
    * @param value  Input-Wert für die Pipe
    * @param args   Hier nicht definiert, wird also nicht ausgewertet
    * 
