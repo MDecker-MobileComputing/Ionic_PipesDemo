@@ -53,6 +53,10 @@ export class AppComponent {
         ziel: "/seite5"
       },
       {
+        titel: "Array-Promise auflösen (Standard)",
+        ziel: "/seite6"
+      },
+      {
         titel: "Stringlänge (Custom)",
         ziel: "/seite3"
       },

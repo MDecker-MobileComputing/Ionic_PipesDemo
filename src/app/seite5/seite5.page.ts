@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 /**
  * Tutorial zu async-Pipe für Auflösung Promise:
@@ -22,7 +22,7 @@ export class Seite5Page {
    * Quelle:
    * https://github.com/MDecker-MobileComputing/TypeScript_Grundlagen/blob/master/beispiele/promises/WindchillBerechnungMitPromise.ts
    *
-   * @return Promise mit Temperatur in Grad Celsius, löst nach einer Sekunde immer auf 5° auf.
+   * @return Promise mit Temperatur in Grad Celsius, löst nach einer halben Sekunde immer auf "5" (Grad) auf.
    */
   public async getTemperatur(): Promise<Number> {
 
