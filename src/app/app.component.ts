@@ -49,6 +49,10 @@ export class AppComponent {
         ziel: "/seite2"
       },
       {
+        titel: "Promise auflösen (Standard)",
+        ziel: "/seite5"
+      },
+      {
         titel: "Stringlänge (Custom)",
         ziel: "/seite3"
       },
