@@ -49,14 +49,14 @@ export class AppComponent {
         ziel: "/seite2"
       },
       {
-        titel: "Eigene Pipe 1",
+        titel: "Stringlänge (Custom)",
         ziel: "/seite3"
       },
       {
-        titel: "Eigene Pipe 2",
+        titel: "Prozentwert (Custom)",
         ziel: "/seite4"
       }
 
     ];
-  }  
+  }
 }
