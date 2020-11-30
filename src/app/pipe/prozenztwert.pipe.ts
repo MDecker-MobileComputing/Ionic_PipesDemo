@@ -9,9 +9,9 @@ export class ProzentwertPipe implements PipeTransform {
 
     const prozentwert = value*100.0 / grundwert;
 
-    const faktor = Math.pow(10,nachkommastellen);
+    const faktor = Math.pow(10, nachkommastellen);
 
-    const prozentwertGerundet = Math.round(prozentwert*faktor)/faktor;
+    const prozentwertGerundet = Math.round(prozentwert*faktor) / faktor;
 
     return prozentwertGerundet + "%";
   }
