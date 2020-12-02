@@ -27,7 +27,7 @@ export class Seite5Page {
    */
   public async getErgebnis(): Promise<Number> {
 
-    const temperaturObjekt = new Number(5);
+    const temperaturObjekt = new Number(123);
 
     const promise = new Promise<Number>(function(resolveCallback, rejectCallback) {
 
