@@ -11,9 +11,9 @@
 
 <ion-content>
 
-  <ion-list *ngFor="let land of laenderArrayPromise | async">
+  <ion-list>
 
-    <ion-item>
+    <ion-item *ngFor="let land of laenderArrayPromise | async">
       <ion-label>
         <h2>{{land}}</h2>
       </ion-label>
