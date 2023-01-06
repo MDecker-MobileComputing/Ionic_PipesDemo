@@ -18,6 +18,6 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   /** Inhalt dieser Member-Variable wird über Interpolation mit/ohne Pipes dargestellt. */
-  private vorUndNachname = "Max MacCrazy";
+  public vorUndNachname = "Max MacCrazy";
 
 }

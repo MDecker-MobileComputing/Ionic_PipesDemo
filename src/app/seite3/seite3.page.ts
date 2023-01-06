@@ -13,6 +13,6 @@ export class Seite3Page {
    * 
    * Quelle: https://www.heise.de/newsticker/meldung/Das-Pferd-frisst-keinen-Gurkensalat-45602.html
    */
-  private einSatz = "Das Pferd frisst keinen Gurkensalat.";
+  public einSatz = "Das Pferd frisst keinen Gurkensalat.";
 
 }

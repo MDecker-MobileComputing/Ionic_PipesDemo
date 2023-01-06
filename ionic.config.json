@@ -1,7 +1,6 @@
 {
-  "name": "PipeDemo",
+  "name": "PipesDemo",
   "integrations": {
-    "cordova": {},
     "capacitor": {}
   },
   "type": "angular"

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Seite6Page {
 
   /** Promise für ein Array-Objekt, dessen Elemente als Liste anzuzeigen sind. */
-  private laenderArrayPromise = this.getLaenderNamen();
+  public laenderArrayPromise = this.getLaenderNamen();
 
 
   /**

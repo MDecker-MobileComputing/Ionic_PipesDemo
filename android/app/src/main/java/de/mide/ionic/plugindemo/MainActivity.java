@@ -1,4 +1,4 @@
-package de.mide.ionic.pipes;
+package de.mide.ionic.plugindemo;
 
 import com.getcapacitor.BridgeActivity;
 

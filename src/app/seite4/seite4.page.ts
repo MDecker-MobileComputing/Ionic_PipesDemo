@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class Seite4Page {
 
   /** Wert, der mit Interpolation darzustellen ist. */
-  private ergebnis = 42;
+  public ergebnis = 42;
 
 }

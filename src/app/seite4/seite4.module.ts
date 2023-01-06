@@ -8,7 +8,7 @@ import { Seite4PageRoutingModule } from './seite4-routing.module';
 
 import { Seite4Page } from './seite4.page';
 
-import { PipeModule} from '../pipe/pipe.module';
+import { PipeModule } from '../pipes/pipes.module';
 
 @NgModule({
   imports: [

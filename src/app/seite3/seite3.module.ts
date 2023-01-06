@@ -8,8 +8,7 @@ import { Seite3PageRoutingModule } from './seite3-routing.module';
 
 import { Seite3Page } from './seite3.page';
 
-import { PipeModule} from '../pipe/pipe.module';
-
+import { PipeModule } from '../pipes/pipes.module';
 
 @NgModule({
   imports: [

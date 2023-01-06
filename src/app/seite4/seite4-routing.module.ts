@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { Seite4Page } from './seite4.page';
 
-
 const routes: Routes = [
   {
     path: '',

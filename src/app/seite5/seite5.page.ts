@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 export class Seite5Page {
 
   /** Member-Variable mit Promise, der mit `async`-Pipe aufgelöst werden soll. */
-  private temperaturPromise = this.getTemperatur();
+  public temperaturPromise = this.getTemperatur();
 
   /**
    * Funktion zur Simulation einer "langlaufenden" Anfrage, die die aktuelle Lufttemperatur

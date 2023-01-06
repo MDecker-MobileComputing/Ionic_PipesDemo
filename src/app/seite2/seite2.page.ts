@@ -16,6 +16,6 @@ import { Component } from '@angular/core';
 export class Seite2Page  {
 
   /** Datum von heute; Inhalt dieser Member-Variable wird über Interpolation mit/ohne Pipes dargestellt. */
-  private aktuellesDatum = Date.now();
+  public aktuellesDatum = Date.now();
 
 }

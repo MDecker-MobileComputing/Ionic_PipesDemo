@@ -30,7 +30,7 @@ const routes: Routes = [
   {
     path: 'seite6',
     loadChildren: () => import('./seite6/seite6.module').then( m => m.Seite6PageModule)
-  }
+  },
 ];
 
 @NgModule({
