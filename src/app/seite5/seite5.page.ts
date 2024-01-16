@@ -14,6 +14,7 @@ export class Seite5Page {
   /** Member-Variable mit Promise, der mit `async`-Pipe aufgelöst werden soll. */
   public temperaturPromise = this.getTemperatur();
 
+
   /**
    * Funktion zur Simulation einer "langlaufenden" Anfrage, die die aktuelle Lufttemperatur
    * am Ort des Nutzers zurückgibt. Diese Temperatur könnte z.B. von einem Sensor oder

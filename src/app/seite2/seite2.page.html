@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Standard-Pipes: Formatierung Datum
-    </ion-title>
+    <ion-title>Standard-Pipes: Formatierung Datum</ion-title>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
@@ -81,21 +79,21 @@
         <h1>Datum durch Pipe <i>date:'yyyy-MM-dd_hh:mm:ss'</i></h1>
         <h2>{{ aktuellesDatum | date:'yyyy-MM-dd_hh:mm:ss' }}</h2>
       </ion-label>
-    </ion-item>    
+    </ion-item>
 
     <ion-item>
       <ion-label>
         <h1>Datum durch Pipe <i>date:'ww'</i> (Kalenderwoche)</h1>
         <h2>{{ aktuellesDatum | date:'ww' }}</h2>
       </ion-label>
-    </ion-item>        
+    </ion-item>
 
     <ion-item>
       <ion-label>
         <h1>Datum durch Pipe <i>date:'EEEE'</i> (Wochentag)</h1>
         <h2>{{ aktuellesDatum | date:'EEEE' }}</h2>
       </ion-label>
-    </ion-item>        
+    </ion-item>
 
   </ion-list>
 

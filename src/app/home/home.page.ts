@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 /**
  * Offizielle Doku zu den in Angular eingebauten Pipes: https://angular.io/guide/pipes
  * <br><br>
- * 
+ *
  * Doku zu den hier verwendeten Pipes:
  * * `UpperCasePipe`: https://angular.io/api/common/UpperCasePipe
  * * `LowerCasePipe`: https://angular.io/api/common/LowerCasePipe

@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
 /**
  * Dokumentation zur `DatePipe`: https://angular.io/api/common/DatePipe
  * <br><br>
- * 
- * Siehe auch das folgende Tutorial: 
+ *
+ * Siehe auch das folgende Tutorial:
  * https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/
  */
 @Component({

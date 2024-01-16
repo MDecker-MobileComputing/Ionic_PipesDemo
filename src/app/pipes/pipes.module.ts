@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StringMitLaengePipe } from './string-mit-laenge.pipe';
-import { ProzentwertPipe} from './prozenztwert.pipe';
+import { ProzentwertPipe} from './prozentwert.pipe';
 
 
 /**

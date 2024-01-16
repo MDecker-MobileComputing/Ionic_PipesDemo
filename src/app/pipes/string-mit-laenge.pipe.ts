@@ -7,16 +7,16 @@ export class StringMitLaengePipe implements PipeTransform {
 
   /**
    * Methode, die die eigentliche Logik der Pipe enthält.
-   * 
-   * Beispiel: 
+   *
+   * Beispiel:
    * * Input: `abcd`
    * * Output: `abcd (4)`
-   * 
+   *
    * @param value  Input-Wert für die Pipe
    * @param args   Hier nicht definiert, wird also nicht ausgewertet
-   * 
-   * @return  Output-Wert; String aus `value` mit Anzahl der Zeichen in 
-   *          Klammer dahinter.
+   *
+   * @return  Output-Wert; String aus `value` mit Anzahl der Zeichen
+   *          in Klammer dahinter.
    */
   transform(value: string, ...args: unknown[]): string {
 

@@ -10,6 +10,7 @@ import { Seite3Page } from './seite3.page';
 
 import { PipeModule } from '../pipes/pipes.module';
 
+
 @NgModule({
   imports: [
     CommonModule,

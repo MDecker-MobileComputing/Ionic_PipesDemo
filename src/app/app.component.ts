@@ -26,7 +26,7 @@ export class AppComponent {
         ziel: "/seite6"
       },
       {
-        titel: "Stringlänge (Custom)",
+        titel: "String-Länge (Custom)",
         ziel: "/seite3"
       },
       {
