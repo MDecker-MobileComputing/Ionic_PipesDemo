@@ -23,7 +23,7 @@ export class Seite6Page {
 
         setTimeout(
             function() { resolveCallback( laenderArray ); },
-            500
+            1500
         );
     });
 

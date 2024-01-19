@@ -33,7 +33,7 @@ export class Seite5Page {
 
         setTimeout(
             function() { resolveCallback( temperaturObjekt ); },
-            500
+            1500
         );
     });
 
