@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-seite6',
   templateUrl: './seite6.page.html',
@@ -12,7 +13,7 @@ export class Seite6Page {
 
 
   /**
-   * Methode liefert ein Promise-Objekt zurück, das nach einer halben Sekunden auflöst.
+   * Methode liefert ein Promise-Objekt zurück, das nach 1,5 Sekunden auflöst.
    * Das Promise-Objekt enthält einen Array mit einigen Länder-Namen.
    */
   public async getLaenderNamen(): Promise<Array<string>> {

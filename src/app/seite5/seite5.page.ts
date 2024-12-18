@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 /**
  * Tutorial zu async-Pipe für Auflösung Promise:
  * https://www.joshmorony.com/using-asyncawait-syntax-for-promises-in-ionic/

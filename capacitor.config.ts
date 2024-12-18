@@ -1,12 +1,9 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'PipeDemo',
-  webDir: 'www',
-  server: {
-    androidScheme: 'https'
-  }
+  appId: 'de.mide.ionic.pipedemo',
+  appName: 'Pipe-Demo',
+  webDir: 'www'
 };
 
 export default config;
