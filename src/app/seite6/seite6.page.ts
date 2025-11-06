@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-seite6',
   templateUrl: './seite6.page.html',
   styleUrls: ['./seite6.page.scss'],
+  standalone: false
 })
 export class Seite6Page {
 

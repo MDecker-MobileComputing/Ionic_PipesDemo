@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   selector: 'app-seite3',
   templateUrl: './seite3.page.html',
   styleUrls: ['./seite3.page.scss'],
+  standalone: false
 })
-export class Seite3Page {
+export class Seite3Page  {
 
   /**
    * Inhalt dieser Member-Variable wird über Interpolation mit/ohne Pipes dargestellt.

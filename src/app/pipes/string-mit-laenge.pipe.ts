@@ -1,7 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
+
 @Pipe({
-  name: 'stringMitLaenge'
+  name: 'stringMitLaenge',
+  standalone: false
 })
 export class StringMitLaengePipe implements PipeTransform {
 
